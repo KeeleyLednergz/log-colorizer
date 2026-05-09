@@ -1,2 +1,11 @@
 # log-colorizer
-Colorize and filter log output in terminal with pattern matching
+
+Colorize and filter log output in terminal.
+
+## Usage
+
+
+
+
+## License
+MIT

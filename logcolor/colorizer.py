@@ -1,4 +1,4 @@
-import re, sys
+import sys
 
 LEVEL_COLORS = {
     "ERROR": "\033[91m",
@@ -9,8 +9,7 @@ LEVEL_COLORS = {
 RESET = "\033[0m"
 
 class Colorizer:
-    def __init__(self, patterns=None, min_level=None):
-        self.patterns = patterns or []
+    def __init__(self, min_level=None):
         self.min_level = min_level
         self._levels = ["DEBUG", "INFO", "WARN", "ERROR"]
 
